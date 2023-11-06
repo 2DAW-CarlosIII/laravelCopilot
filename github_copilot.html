@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>GitHub Copilot | Laravel Test con GitHub Copilot </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Alberto Sierra" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site exe-search-bar" id="exe-node-42"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Laravel Test con GitHub Copilot</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Laravel Test con GitHub Copilot</a></li>
+   <li><a href="laravel_testing.html" class="no-ch">Laravel Testing</a></li>
+   <li id="active"><a href="github_copilot.html" class="active no-ch">GitHub Copilot</a></li>
+   <li><a href="configuracin_del_entorno.html" class="no-ch">Configuración del entorno</a></li>
+   <li><a href="controlador_de_recursos.html" class="daddy">Controlador de recursos</a>
+   <ul class="other-section">
+      <li><a href="modelo.html" class="no-ch">Modelo</a></li>
+      <li><a href="controlador.html" class="no-ch">Controlador</a></li>
+      <li><a href="recursos_api_y_colecciones.html" class="no-ch">Recursos API y Colecciones</a></li>
+      <li><a href="rutas.html" class="no-ch">Rutas</a></li>
+      <li><a href="funcionalidad.html" class="no-ch">Funcionalidad</a></li>
+      <li><a href="formato_jsonapi.html" class="no-ch">Formato JSON:API</a></li>
+   </ul>
+   </li>
+   <li><a href="ia_github_copilot.html" class="daddy">IA GitHub Copilot</a>
+   <ul class="other-section">
+      <li><a href="creacin_del_test.html" class="no-ch">Creación del test</a></li>
+      <li><a href="mtodo_store.html" class="no-ch">Método store</a></li>
+      <li><a href="mtodo_index.html" class="no-ch">Método index</a></li>
+      <li><a href="mtodo_update.html" class="no-ch">Método update</a></li>
+      <li><a href="mtodo_destroy.html" class="no-ch">Método destroy</a></li>
+      <li><a href="ejecucin_de_los_tests.html" class="no-ch">Ejecución de los tests</a></li>
+   </ul>
+   </li>
+   <li><a href="extensin_a_otros_recursos.html" class="no-ch">Extensión a otros recursos</a></li>
+   <li><a href="crditos_y_descarga.html" class="daddy">Créditos y descarga</a>
+   <ul class="other-section">
+      <li><a href="evaluacin.html" class="no-ch">Evaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="gua_didctica.html" class="daddy">Guía didáctica</a>
+   <ul class="other-section">
+      <li><a href="metodologa.html" class="no-ch">Metodología</a></li>
+      <li><a href="evaluacin_de_la_situacin_de_aprendizaje.html" class="no-ch">Evaluación de la Situación de aprendizaje</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="laravel_testing.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>3</strong> de <strong>24</strong></span> <span class="sep">| </span><a href="configuracin_del_entorno.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">GitHub Copilot</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id149">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Introducción</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta149_149_2" class="block iDevice_content">
+<div class="exe-text"><p><em>GitHub Copilot</em> es una herramienta que utiliza Inteligencia Artificial para proporcionar sugerencias de estilo <em>autocompletar</em> mientras codifica. Se puede obtener más información, en <a href="https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-individuals">"Acerca de GitHub Copilot para individuos"</a>.</p>
+<p>Como, durante el curso, estamos utilizando <strong>Visual Studio Code</strong>, podemos ver e incorporar sugerencias de <em>GitHub Copilot</em> directamente dentro del editor.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id158">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Solicitar GitHub Copilot</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta158_158_2" class="block iDevice_content">
+<div class="exe-text"><p>Hay una suscripción gratuita a <em>GitHub Copilot</em> disponible para estudiantes y profesores.</p>
+<p>Como estudiante, si actualmente recibes el <em>GitHub Student Developer Pack</em>, también se te ofrecerá una suscripción gratuita cuando visites la página de suscripción de <em>GitHub Copilot</em>.</p>
+<p>Vamos a solicitar un <em>GitHub Student Developer Pack</em>, accediendo a "<a href="https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student#applying-to-github-global-campus">Solicitar ingreso a GitHub Global Campus como estudiante</a>".</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id159">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Instalar la extensión en VS Code</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta159_159_2" class="block iDevice_content">
+<div class="exe-text"><p>Para usar <em>GitHub Copilot</em>, primero debemos instalar la extensión <em>GitHub Copilot</em> en Visual Studio Code.</p>
+<p>Actualizaremos VS Code, descargando el paquete <em>debian</em> e instalándolo con los siguientes comandos:</p>
+<pre style="padding-left: 30px;"><code>cd ~/Descargas/
+URL="https://code.visualstudio.com/sha/download?build=stable&amp;os=linux-deb-x64"; wget -O code_amd64.deb "$URL"
+sudo dpkg -i code_amd64.deb</code></pre>
+<p>En las extensiones de VS Code, debemos buscar la extensión <strong>GitHub Copilot</strong> y haremos clic en <strong>Instalar</strong>.</p>
+<p>Si no ha autorizado previamente Visual Studio Code en su cuenta de GitHub, se le pedirá que inicie sesión en GitHub desde Visual Studio Code.</p>
+<p>Si previamente autorizó Visual Studio Code para su cuenta en GitHub, GitHub Copilot se autorizará automáticamente.</p>
+<p>Si no recibe el mensaje de autorización, haga clic en el icono de campana en el panel inferior de la ventana de Visual Studio Code.</p>
+<figure class="exe-figure exe-image position-center" style="width: 658px;"><img src="https://docs.github.com/assets/cb-12231/mw-1440/images/help/copilot/copilot-activate.webp" alt="Captura de pantalla de la barra de tareas de Visual Studio Code con iconos de GitHub Copilot. El ícono de la campana está remarcado en naranja oscuro." title="Captura de pantalla de la barra de tareas de Visual Studio Code con iconos de GitHub Copilot. El ícono de la campana está remarcado en naranja oscuro." width="658" height="52" />
+<figcaption class="figcaption"><a href="https://docs.github.com/es/copilot/getting-started-with-github-copilot" target="_blank" class="title" rel="noopener"><em>Captura de pantalla de la barra de tareas de Visual Studio Code con iconos de GitHub Copilot. El ícono de la campana está remarcado en naranja oscuro.</em></a></figcaption>
+</figure>
+<p>Desde VSCode, aceptaremos la solicitud de autenticarnos en GitHub. Se abrirá nuestro navegador en donde, tras autenticarnos, nos solicitará permiso para que VS Code acceda a datos de nuestra cuenta.</p>
+<figure class="exe-figure exe-image position-center license-CC-BY-NC-SA" style="width: 534px;"><img src="authorizingGitHubCopilot.png" alt="Autorizando a Visual Studio para utilizar Copilot " title="Autorizando a Visual Studio para utilizar Copilot " width="534" height="516" />
+<figcaption class="figcaption"><span class="author">Alberto Sierra</span>. <span class="title"><em>Autorizando a Visual Studio para utilizar Copilot </em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/?lang=es" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Si nos aparece un mensaje como el que se muestra a continuación, podemos (en nuestro entorno de máquina virtual) aceptar una encriptación más débil.</p>
+<figure class="exe-figure exe-image position-center license-CC-BY-NC-SA" style="width: 516px;"><img src="useWeakerEncryption.png" alt="Uso de encriptación débil." title="Uso de encriptación débil." width="516" height="233" />
+<figcaption class="figcaption"><span class="author">Alberto Sierra</span>. <span class="title"><em>Uso de encriptación débil.</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/?lang=es" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id160">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Primera sugerencia</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta160_160_2" class="block iDevice_content">
+<div class="exe-text"><p>Accede al archivo <code>routes/web.php</code> y escribe el siguiente comentario:</p>
+<pre style="padding-left: 30px;"><code>/* Crea una ruta Laravel que acepte una petición GET al recurso /proyectos<br />y genere el texto Listado de proyectos. */</code></pre>
+<p>GitHub Copilot generará el siguiente código:</p>
+<pre style="padding-left: 30px;"><code>Route::get('/proyectos', function () {<br />return "Listado proyectos";<br />});</code></pre>
+<p>Pulsando la tecla del tabulador, aceptaremos esa sugerencia.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="laravel_testing.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>3</strong> de <strong>24</strong></span> <span class="sep">| </span><a href="configuracin_del_entorno.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

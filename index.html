@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Laravel Test con GitHub Copilot </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Alberto Sierra" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<meta name="description" content="Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web
+
+Desarrollo web en entorno servidor" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site exe-search-bar" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Laravel Test con GitHub Copilot</div></header>
+<nav id="siteNav">
+<ul>
+   <li id="active"><a href="index.html" class="active daddy main-node">Laravel Test con GitHub Copilot</a></li>
+   <li><a href="laravel_testing.html" class="no-ch">Laravel Testing</a></li>
+   <li><a href="github_copilot.html" class="no-ch">GitHub Copilot</a></li>
+   <li><a href="configuracin_del_entorno.html" class="no-ch">Configuración del entorno</a></li>
+   <li><a href="controlador_de_recursos.html" class="daddy">Controlador de recursos</a>
+   <ul class="other-section">
+      <li><a href="modelo.html" class="no-ch">Modelo</a></li>
+      <li><a href="controlador.html" class="no-ch">Controlador</a></li>
+      <li><a href="recursos_api_y_colecciones.html" class="no-ch">Recursos API y Colecciones</a></li>
+      <li><a href="rutas.html" class="no-ch">Rutas</a></li>
+      <li><a href="funcionalidad.html" class="no-ch">Funcionalidad</a></li>
+      <li><a href="formato_jsonapi.html" class="no-ch">Formato JSON:API</a></li>
+   </ul>
+   </li>
+   <li><a href="ia_github_copilot.html" class="daddy">IA GitHub Copilot</a>
+   <ul class="other-section">
+      <li><a href="creacin_del_test.html" class="no-ch">Creación del test</a></li>
+      <li><a href="mtodo_store.html" class="no-ch">Método store</a></li>
+      <li><a href="mtodo_index.html" class="no-ch">Método index</a></li>
+      <li><a href="mtodo_update.html" class="no-ch">Método update</a></li>
+      <li><a href="mtodo_destroy.html" class="no-ch">Método destroy</a></li>
+      <li><a href="ejecucin_de_los_tests.html" class="no-ch">Ejecución de los tests</a></li>
+   </ul>
+   </li>
+   <li><a href="extensin_a_otros_recursos.html" class="no-ch">Extensión a otros recursos</a></li>
+   <li><a href="crditos_y_descarga.html" class="daddy">Créditos y descarga</a>
+   <ul class="other-section">
+      <li><a href="evaluacin.html" class="no-ch">Evaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="gua_didctica.html" class="daddy">Guía didáctica</a>
+   <ul class="other-section">
+      <li><a href="metodologa.html" class="no-ch">Metodología</a></li>
+      <li><a href="evaluacin_de_la_situacin_de_aprendizaje.html" class="no-ch">Evaluación de la Situación de aprendizaje</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<span class="page-counter">Página <strong>1</strong> de <strong>24</strong></span> <span class="sep">| </span><a href="laravel_testing.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Laravel Test con GitHub Copilot</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Datos identificativos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_118_2" class="block iDevice_content">
+<div class="exe-text"><div>
+<table style="margin: 0 auto;">
+<tbody>
+<tr>
+<td>
+<figure class="exe-figure exe-image license-copyright" style="width: 256px; text-align: center;"><img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Framework" title="Laravel Framework" width="256" />
+<figcaption class="figcaption"><a href="https://laravel.com/" target="_blank" class="title" rel="noopener"><em>Laravel Framework</em></a> <br /><span class="license"><span class="sep">(</span><span>Todos los derechos reservados</span><span class="sep">)</span></span></figcaption>
+</figure>
+</td>
+<td>
+<figure class="exe-figure exe-image position-center license-custom" style="width: 256px; text-align: center;"><img src="Github-Octicons-Copilot-96.512.png" alt="GitHub Copilot" title="GitHub Copilot" width="256" />
+<figcaption class="figcaption"><a href="https://github.com/features/copilot" target="_blank" class="title" rel="noopener"><em>GitHub Copilot</em></a><br /><span class="license"><span class="sep">(</span><span class="custom-license">https://en.wikipedia.org/wiki/MIT_License</span><span class="sep">)</span></span></figcaption>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 style="text-align: center; margin: 5px;"><strong>Título:</strong><code></code></h3>
+<h4 style="text-align: center; margin: 5px;"><code>Laravel Test con GitHub Copilot</code></h4>
+<h3 style="text-align: center; margin: 5px;"><strong>Etapa:</strong><code></code></h3>
+<h4 style="text-align: center; margin: 5px;"><code>Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web</code></h4>
+<h3 style="text-align: center; margin: 5px;"><strong>Curso:</strong><code></code></h3>
+<h4 style="text-align: center; margin: 5px;"><code>2.º</code></h4>
+<h3 style="text-align: center; margin: 5px;"><strong>Módulo:</strong><code></code></h3>
+<h4 style="text-align: center; margin: 5px;"><code>Desarrollo web en entorno servidor</code><span style="color: #057996;"><strong></strong></span></h4></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Temporalización y relación con la programación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta28_112_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">Esta situación de aprendizaje permitirá a los estudiantes aplicar <em>GitHub Copilot</em> de manera efectiva para <strong>generar pruebas funcionales</strong> que evalúen el correcto funcionamiento de un controlador de recursos en proyectos <em>Laravel</em>, lo que mejorará la calidad del código y el proceso de desarrollo web.</p>
+<p style="text-align: justify;">La presente situación de aprendizaje requiere de un mínimo de seis horas, en sesiones de dos horas. Sería deseable iniciarla cuando el alumnado haya abordado los contenidos correspondientes a los controladores de recursos.</p>
+<p style="text-align: justify;">Parte de las tareas podrán ser realizadas por el alumnado en su propio domicilio, preferentemente a través de la máquina virtual facilitada al inicio del curso.</p>
+<p style="text-align: justify;">En cuanto a la finalidad de los aprendizajes, esta situación de aprendizaje dota al profesorado de recursos educativos variados que contribuyen a que su alumnado:</p>
+<ul>
+<li style="text-align: justify;"><em>Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones.</em></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<span class="page-counter">Página <strong>1</strong> de <strong>24</strong></span> <span class="sep">| </span><a href="laravel_testing.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
